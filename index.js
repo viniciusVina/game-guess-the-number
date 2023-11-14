@@ -40,7 +40,7 @@ function compareNumbers() {
             document.getElementById('inputBox').value = '';
             attempts++;
             document.getElementById('attempts').innerHTML = attempts;
-            document.getElementById('inputBox').setAttribute('Readonly', 'Readonly');
+            document.getElementById('inputBox').setAttribute('Readonly', 'Readonly');//deixar o campo somente leitura
         }   
     }
     else{
